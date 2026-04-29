@@ -1,0 +1,22 @@
+ecommerce-delivery-analytics/
+│
+├── data/
+│   ├── raw/                  # Original dataset (unchanged)
+│   └── processed/            # Cleaned dataset after preprocessing
+│
+├── notebooks/
+│   └── Ecommerce_Delivery_Analytics.ipynb   # Your main analysis notebook
+│
+├── src/
+│   ├── data_cleaning.py      # Data preprocessing functions
+│   ├── eda.py                # EDA functions (plots, summaries)
+│   └── utils.py              # Helper functions
+│
+├── outputs/
+│   ├── figures/              # Saved plots/graphs
+│   └── reports/              # Final insights / PDF reports
+│
+├── requirements.txt         # All dependencies
+├── README.md                # Project documentation
+├── .gitignore               # Ignore unnecessary files
+└── LICENSE                  # Optional (MIT recommended)
